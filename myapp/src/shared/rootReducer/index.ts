@@ -39,6 +39,7 @@ export type RootState = {
   Item: { items: Item[] | undefined };
 };
 
+// App Reducer
 const reducers = combineReducers({ App: itemReducer });
 
 export default reducers;

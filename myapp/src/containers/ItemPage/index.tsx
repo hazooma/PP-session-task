@@ -51,12 +51,7 @@ class Item extends React.Component<ItemProps, ItemState> {
   }
   render() {
     return (
-      <div
-        style={{
-          width: "100%",
-          maxWidth: 360,
-        }}
-      >
+      <div className="col-md-8 col-md-offset-3">
         <label>Logged In as {localStorage.getItem("role")}</label>
         <br />
         <label>ItemName</label>

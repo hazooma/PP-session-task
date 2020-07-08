@@ -27,12 +27,7 @@ class ListItems extends React.Component<ListItemsProps> {
 
   render() {
     return (
-      <div
-        style={{
-          width: "100%",
-          maxWidth: 360,
-        }}
-      >
+      <div className="col-md-8 col-md-offset-3">
         <List component="nav" aria-label="secondary mailbox folders">
           {this.props?.items?.map((item) => (
             <Link to={`item/${item.id}`}>
@@ -46,7 +41,7 @@ class ListItems extends React.Component<ListItemsProps> {
     );
   }
 }
-const mapDispatchToProps = (dispatch: Dispatch, props: any) => {
+const mapDispatchToProps = (dispatch: Dispatch) => {
   return bindActionCreators(
     {
       fetchItems: () => actions.fetchItemsAction(),
