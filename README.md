@@ -1,13 +1,9 @@
 # PP-session-task
 
-# Available Scripts
+Run the backend 
+`cd backend`
+`sudo npm i`
+`sudo npm start`
+to run tests 
+`sudo npm t`
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the backend in the development mode.<br />
-
-
-### `npm t`
-Runs the backend tests .
