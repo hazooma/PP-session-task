@@ -2,7 +2,7 @@
 
 # BackEnd
 
-Run the backend 
+Run the backend <br>
 `cd backend` <br>
 `sudo npm i` <br>
 `sudo npm start` <br>
@@ -12,7 +12,7 @@ To run tests
 
 # FrontEnd
 
-Run the frontend 
+Run the frontend <br>
 `cd myapp` <br>
 `sudo npm i` <br>
 `sudo npm start` <br>
