@@ -4,7 +4,7 @@ import { allowCors } from "./middleWares/cors";
 import routes from "./routes";
 import bodyparser from "body-parser";
 dotenv.config();
-const port = process.env.PORT || 8080; // default port to listen
+const port = process.env.NODE_ENV === "test" ? 8081 : process.env.PORT || 8080; // default port to listen
 
 const app = express();
 
@@ -19,4 +19,3 @@ app.listen(port, () => {
 });
 
 export default app;
-
